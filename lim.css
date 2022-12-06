@@ -1,0 +1,60 @@
+.trasparente{
+  background-color: #00000073;
+  width: 70%;
+  height: 620px;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 15px;
+}
+body{
+  font-family: 'Ubuntu';font-size: 15px;
+  text-align: center;
+  color: white;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+div>img{
+  margin-top: 5%;
+  width: 20%;
+  margin-bottom: 1%;
+}
+header>h2{
+  font-size: 25px;
+  color: #00dd00;
+  margin: auto;
+}
+nav>div{
+  background-color: #00dd00;
+  padding: 10px;
+  display: inline-block;
+  width: 80%;
+  box-sizing: border-box;
+}
+.segno:before{
+  content: 	"\21A6"
+}
+main{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+main>div{
+  margin-top: 3%;
+}
+.barra{
+  background-color: green;
+ padding: 13px;
+ border-radius: 5px;
+}
+.barra.media{
+  width: 40%;
+  background-color: #f5b453;
+}
+.barra.grande{
+  width: 60%;
+  background-color: #1ec31e;
+}
+.barra.piccola{
+  width: 20%;
+  background-color: #be4141;
+}
